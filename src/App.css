@@ -1,38 +1,100 @@
+.body{
+  background: #f3f3f3;
+}
+.Header{
+  color: #ffffff;
+  text-align: center;
+  background: #07225c;
+  padding: 20px 20px;
+  font-family: cursive;
+}
+.tr
+{
+  WIDTH: 33.3% !important;
+    FLOAT: LEFT;
+    min-height: 390px !important;
+}
 .App {
   text-align: center;
 }
+.nav-item{
+background: #eee  !important;
+    color: #07225c  !important;
+    font-weight: bold;
+}
+.nav-item>a{
+  color:  #07225cb3;
+ 
+}
+.nav-item>a:hover{color:#07225c !important ;}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.paddingContainer{
+  padding: 0% 5%  !important;
+}
+.tab-content{
+  overflow: auto;
+  height: auto;
+}
+.card{box-shadow:  2px rgb(118 113 113 / 70%) !important}
+.card:hover{box-shadow: 2px 2px #767171 !important;}
+.card>a{text-decoration: none;}
+.card>a>img{width: 60% !important; 
+  min-height: 272px;
+}
+.card-body >h5{font-size: 24px;
+  font-family: cursive;
+  color: #383131;
+}
+.card-body >h6
+{
+  color:#294d9d !IMPORTANT
+}
+.card-body >h3{
+  float: right;
+  background: #2c4880;
+  padding: 14px;
+  font-size: 23px;
+  border-radius: 50%;
+  color: #fff !important;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  margin: 5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+/*  details */
+.DatailsBar{
+overflow: auto;
+height: auto;
+padding: 0% 5%;
+background: rgb(243 243 243 / 40%);
+}
+.DatailsBar .DetailsImage{float: left;}
+.DatailsBar .DetailsRighrbar{float: right; padding: 0% 3%; }
+.DatailsBar .DetailsRighrbar .display-5{color: #0c3389 !important;}
+.DatailsBar .DetailsImage,
+.DatailsBar .DetailsRighrbar{width: 50% !important;position: relative;}
+.DatailsBar .DetailsRighrbar .lead{ text-justify: auto;}
+.DatailsBar .DetailsRighrbar .success
+{    background: #1a8d1a;
+  float: left;
+  color: #fff !important;
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+  right: 5%;
+  top: 5%;
+}
+.DatailsBar .DetailsRighrbar .LearnMore
+{ position: absolute;
+  right: 0px;
+  box-shadow: 1px 1px #9baacb;
+  background: #1f3054;
+}
+.DatailsBar .DetailsRighrbar .LearnMore >a{color:#fff;text-decoration: none; }
+  .DatailsBar .DetailsRighrbar .FirstFligh,.DatailsBar .DetailsRighrbar .country{
+    color: #000 !important;
+
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  
